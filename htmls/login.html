@@ -11,26 +11,29 @@
   <link rel="stylesheet"  href="../css/login.css">
 </head>
 <body>
-    <div class="d-flex container-fluid bg-secondary align-items-center justify-content-center" style="margin-bottom:0" id="login-container">
-        <div class='align-self-start text-center' id="login-header">
-            <h1>My First Bootstrap 4 Page</h1>
+    <div class="d-flex flex-column container-fluid bg-secondary" style="margin-bottom:0" id="login-container">
+        <div class='align-self-stretch text-center d-flex justify-content-center' id="login-header">
+            <h1 class="align-self-center display-4">My First Bootstrap 4 Page</h1>
         </div>
-        <form action="#" id="login-form" class="rounded">
-          <div class="form-group">
-            <label for="email">Email address:</label>
-            <input type="email" class="form-control" id="email">
-          </div>
-          <div class="form-group">
-            <label for="pwd">Password:</label>
-            <input type="password" class="form-control" id="pwd">
-          </div>
-          <div class="form-group form-check">
-            <label class="form-check-label">
-              <input class="form-check-input" type="checkbox"> Remember me
-            </label>
-          </div>
-          <button type="submit" class="btn btn-primary float-right">Submit</button>
-        </form>
+        
+        <div class="align-self-center d-flex flex-grow-1 justify-content-center align-self-center" id="login-form-container">
+            <form action="#" id="login-form" class="align-self-center">
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary float-right">Submit</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>

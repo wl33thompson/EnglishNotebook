@@ -10,11 +10,14 @@ html,body{
 
 #login-header{
     height: 20%;
-    border: 1 solid blue;
+}
+
+#login-form-container{
+    opacity: 0.8;
+    width: 100%;
 }
 
 #login-form{
-    opacity: 0.8;
-    width: 50%;
-    padding: 30px;
+   width: 50%; 
+    
 }
