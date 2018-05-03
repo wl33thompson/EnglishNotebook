@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>My English NoteBook</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
@@ -9,12 +9,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet"  href="../css/login.css">
+   
 </head>
 <body>
+    <div class='d-flex text-center justify-content-center' id="login-header">
+            <h1 class='align-self-center display-4' style="opacity: 1;">My English NoteBook</h1>
+    </div>
     <div class="d-flex container-fluid bg-secondary align-items-center justify-content-center" style="margin-bottom:0" id="login-container">
-        <div class='align-self-start text-center' id="login-header">
-            <h1>My First Bootstrap 4 Page</h1>
-        </div>
+        
         <form action="#" id="login-form" class="rounded">
           <div class="form-group">
             <label for="email">Email address:</label>
@@ -29,8 +31,11 @@
               <input class="form-check-input" type="checkbox"> Remember me
             </label>
           </div>
-          <button type="submit" class="btn btn-primary float-right">Submit</button>
+           
+          <button  type="submit" class="btn btn-primary float-right">Sign In</button>
+        <button type="submit" class="btn btn-info float-right mr-2" title="registry new account :)" data-toggle="tooltip" data-placement="bottom">Sign Up</button>
         </form>
     </div>
 </body>
+<script src="../js/generic.js"></script> 
 </html>
